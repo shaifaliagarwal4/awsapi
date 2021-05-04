@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>hlo</title>
+    </head>
+<body>
+{% block content %}
+{% for na in data %}
+<p>my name is {{na.name}}</p>
+{% endfor %}
+</body>
+{% endblock %}
+</html>
